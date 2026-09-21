@@ -1,0 +1,113 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+% Page
+\usepackage[a4paper, margin=2.5cm]{geometry}
+
+% Mathematics
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+% Lists
+\usepackage{enumitem}
+
+% Colors
+\usepackage{xcolor}
+
+% Boxes
+\usepackage[most]{tcolorbox}
+
+% Links
+\usepackage{hyperref}
+
+% Graphics
+\usepackage{graphicx}
+
+% ------------------------------------------------
+% MATHEMATICAL SETS
+% ------------------------------------------------
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+% ------------------------------------------------
+% COMMON SYMBOLS
+% ------------------------------------------------
+
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\newcommand{\set}[1]{\left\{#1\right\}}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\intset}[1]{[\![#1]\!]}
+
+% ------------------------------------------------
+% THEOREM ENVIRONMENTS
+% ------------------------------------------------
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+% ------------------------------------------------
+% EXERCISE COUNTER
+% ------------------------------------------------
+
+\newcounter{exercise}[section]
+\renewcommand{\theexercise}{\thesection.\arabic{exercise}}
+
+% ------------------------------------------------
+% EXERCISE ENVIRONMENT
+% ------------------------------------------------
+
+\newenvironment{exercise}[1][]
+{
+    \refstepcounter{exercise}
+    \begin{tcolorbox}[
+        breakable,
+        title={Exercise \theexercise\ifx&#1&\else\ -- #1\fi},
+        colback=white,
+        colframe=black,
+        boxrule=0.7pt,
+        arc=2mm,
+        left=3mm,
+        right=3mm,
+        top=2mm,
+        bottom=2mm
+    ]
+}
+{
+    \end{tcolorbox}
+}
+\newenvironment{hint}
+{
+    \begin{tcolorbox}[
+        breakable,
+        title={Hint},
+        colback=white,
+        colframe=gray,
+        boxrule=0.5pt,
+        arc=2mm
+    ]
+}
+{
+    \end{tcolorbox}
+}
+% ------------------------------------------------
+% SOLUTION ENVIRONMENT
+% ------------------------------------------------
+
+\newenvironment{solution}
+{
+    \begin{proof}[Solution]
+}
+{
+    \end{proof}
+}
