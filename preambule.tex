@@ -1,33 +1,29 @@
+%------------------------------------------------
+% Préambule pour environnement LaTeX, ajouter des environnements, packages, commandes si besoin sans perturber les commandes existantes
+%------------------------------------------------
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 
-% Page
 \usepackage[a4paper, margin=2.5cm]{geometry}
 
-% Mathematics
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{mathtools}
 
-% Lists
 \usepackage{enumitem}
 
-% Colors
 \usepackage{xcolor}
 
-% Boxes
 \usepackage[most]{tcolorbox}
 
-% Links
 \usepackage{hyperref}
 
-% Graphics
 \usepackage{graphicx}
 
 % ------------------------------------------------
-% MATHEMATICAL SETS
+% ensembles
 % ------------------------------------------------
 
 \newcommand{\N}{\mathbb{N}}
@@ -39,7 +35,7 @@
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\P}{\mathbb{P}}
 % ------------------------------------------------
-% COMMON SYMBOLS
+% symboles
 % ------------------------------------------------
 
 \newcommand{\abs}[1]{\left|#1\right|}
@@ -52,7 +48,7 @@
 
 
 % ------------------------------------------------
-% THEOREM ENVIRONMENTS
+% environnements
 % ------------------------------------------------
 
 \newtheorem{theorem}{Theorem}[section]
@@ -61,14 +57,14 @@
 \newtheorem{corollary}[theorem]{Corollary}
 
 % ------------------------------------------------
-% EXERCISE COUNTER
+% exerice
 % ------------------------------------------------
 
 \newcounter{exercise}[section]
 \renewcommand{\theexercise}{\thesection.\arabic{exercise}}
 
 % ------------------------------------------------
-% EXERCISE ENVIRONMENT
+% environnement exo
 % ------------------------------------------------
 
 \newenvironment{exercise}[1][]
@@ -76,7 +72,7 @@
     \refstepcounter{exercise}
     \begin{tcolorbox}[
         breakable,
-        title={Exercise \theexercise\ifx&#1&\else\ -- #1\fi},
+        title={Exercice \theexercise\ifx&#1&\else\ -- #1\fi},
         colback=white,
         colframe=black,
         boxrule=0.7pt,
@@ -94,7 +90,7 @@
 {
     \begin{tcolorbox}[
         breakable,
-        title={Hint},
+        title={Indication},
         colback=white,
         colframe=gray,
         boxrule=0.5pt,
@@ -105,7 +101,7 @@
     \end{tcolorbox}
 }
 % ------------------------------------------------
-% SOLUTION ENVIRONMENT
+% solution
 % ------------------------------------------------
 
 \newenvironment{solution}
