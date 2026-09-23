@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2026.6.28)  23 SEP 2026 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2026.6.28)  23 SEP 2026 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,13 +660,17 @@ or  <return>  to continue without it.
 
 \c@theorem=\count330
 \c@exercise=\count331
+\c@questionsi=\count332
+\c@questionsii=\count333
+\c@questionsiii=\count334
+\enitdp@questions=\count335
 )
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 5.
  (C:\Users\jey\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\jey\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count332
+\l__color_backend_stack_int=\count336
 \l__pdf_internal_box=\box80
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -726,16 +730,16 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (C:\Users\jey\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
+\scratchcounter=\count337
 \scratchdimen=\dimen288
 \scratchbox=\box81
-\nofMPsegments=\count334
-\nofMParguments=\count335
+\nofMPsegments=\count338
+\nofMParguments=\count339
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count336
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen289
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks48
 ) (C:\Users\jey\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -743,7 +747,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\jey\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count339
+\c@lstlisting=\count343
 Package hyperref Info: Link coloring OFF on input line 5.
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -781,7 +785,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
@@ -798,17 +802,17 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28536 strings out of 475385
- 575094 string characters out of 2777851
- 936752 words of memory out of 3000000
- 49423 multiletter control sequences out of 15000+600000
+ 28572 strings out of 475385
+ 575572 string characters out of 2777851
+ 937479 words of memory out of 3000000
+ 49452 multiletter control sequences out of 15000+600000
  495605 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,5n,107p,486b,659s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/jey/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (2 pages, 163787 bytes).
+Output written on main.pdf (2 pages, 164577 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
